@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54666ecc-46f8-46e5-a8c5-7239d6a65627" name="Changes" comment="Finished first simple spring project" />
+    <list default="true" id="54666ecc-46f8-46e5-a8c5-7239d6a65627" name="Changes" comment="Finished first simple spring project">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -48,11 +52,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "B:/Java/Spring+Hibernate/SpringFramework/Library/src/main/resources",
+    "last_opened_file_path": "B:/Java/Spring+Hibernate/ExpirienceAssesment/Library",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.20229885",
-    "settings.editor.selected.configurable": "profiler.jvm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "4d70254b3a8e2bc38b6147fa6ee813be"
   },
   "keyToStringList": {
@@ -168,6 +172,7 @@
       <updated>1670225297929</updated>
       <workItem from="1670225299501" duration="12120000" />
       <workItem from="1670609568581" duration="25822000" />
+      <workItem from="1670754398100" duration="173000" />
     </task>
     <task id="LOCAL-00001" summary="Finished first simple spring project">
       <created>1670753690899</created>
@@ -194,6 +199,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Finished first simple spring project" />
     <option name="LAST_COMMIT_MESSAGE" value="Finished first simple spring project" />
   </component>
