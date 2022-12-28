@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54666ecc-46f8-46e5-a8c5-7239d6a65627" name="Changes" comment="Finished first simple spring project">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="54666ecc-46f8-46e5-a8c5-7239d6a65627" name="Changes" comment="Added:&#10;- search page;&#10;- PeopleRepository and BooksRepository;&#10;- PeopleService and BooksService.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +20,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -46,28 +54,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "B:/Java/Spring+Hibernate/ExpirienceAssesment/Library",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.20229885",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "4d70254b3a8e2bc38b6147fa6ee813be"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/Java/Spring+Hibernate/SpringFramework/Tasks/Library&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20229885&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;profiler.jvm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4d70254b3a8e2bc38b6147fa6ee813be&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="JDBC.repository" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="B:\Java\Spring+Hibernate\SpringFramework\Library\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\Java\Spring+Hibernate\SpringFramework\Tasks\Library\src\main\webapp\WEB-INF\views" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.springcourse.library.config" />
@@ -171,8 +186,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670225297929</updated>
       <workItem from="1670225299501" duration="12120000" />
-      <workItem from="1670609568581" duration="25822000" />
-      <workItem from="1670754398100" duration="173000" />
+      <workItem from="1670609568581" duration="26104000" />
+      <workItem from="1670844703883" duration="2241000" />
+      <workItem from="1671733144846" duration="2652000" />
+      <workItem from="1671801554318" duration="3099000" />
+      <workItem from="1672010851161" duration="666000" />
+      <workItem from="1672048840531" duration="18000" />
+      <workItem from="1672051051206" duration="15102000" />
+      <workItem from="1672195446913" duration="10060000" />
     </task>
     <task id="LOCAL-00001" summary="Finished first simple spring project">
       <created>1670753690899</created>
@@ -181,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670753690899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added:&#10;- search page;&#10;- PeopleRepository and BooksRepository;&#10;- PeopleService and BooksService.">
+      <created>1672269032958</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672269032958</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,10 +227,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
     <MESSAGE value="Finished first simple spring project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished first simple spring project" />
+    <MESSAGE value="Added:&#10;- search page;&#10;- PeopleRepository and BooksRepository;&#10;- PeopleService and BooksService." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;- search page;&#10;- PeopleRepository and BooksRepository;&#10;- PeopleService and BooksService." />
   </component>
 </project>

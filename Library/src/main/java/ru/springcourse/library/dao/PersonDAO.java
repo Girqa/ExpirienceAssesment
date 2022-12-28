@@ -41,6 +41,10 @@ public class PersonDAO {
                 updatedPerson.getFullName(), updatedPerson.getYearOfBirth(), id);
     }
 
+    public Optional<Person> getPersonByFullName(String fullName) {
+        return jdbcTemplate.query("SELECT * FROM Person WHERE full_name=?", new Object[]{fullName},
+                new BeanPropertyRowMapper<>(Person.class)).stream().findAny();
+    }
     public List<Book> getBooks(int id) {
         return jdbcTemplate.query("SELECT * FROM BOOK WHERE person_id=?",
                 new Object[]{id}, new BeanPropertyRowMapper<>(Book.class));
