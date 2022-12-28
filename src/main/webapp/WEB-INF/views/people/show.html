@@ -9,7 +9,7 @@
     <div>Год рождения: <span th:text="${person.getYearOfBirth()}"/></div>
     <br/>
     <div th:each="book : ${books}">
-        <div>
+        <div th:style="${book.isOverdue()}?'color: red':'color: black'">
             <span th:text="${book.getTitle()}" />,
             <span th:text="${book.getAuthor()}"/>,
             <span th:text="${book.getYear()}"/>
@@ -26,4 +26,7 @@
     <br/>
 
 </body>
+<footer>
+    <a th:href="@{/people}">Страница пользователей</a>
+</footer>
 </html>
