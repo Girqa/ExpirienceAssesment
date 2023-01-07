@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница пользователя</title>
+</head>
+<body>
+    <div>
+        Личные данные:
+        <br/>
+        <div>ФИО: <span th:text="${person.getFullName()}"/></div>
+        <br/>
+        <div>Год рождения: <span th:text="${person.getYearOfBirth()}"/></div>
+        <br/>
+        <div th:each="book : ${books}">
+            <div th:style="${book.isOverdue()}?'color: red':'color: black'">
+                <span th:text="${book.getTitle()}" />,
+                <span th:text="${book.getAuthor()}"/>,
+                <span th:text="${book.getYear()}"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-222.4167.29">
-    <data-source name="FirstDB@localhost" uuid="38698c40-8542-41ef-98ff-f056e61b5012">
+    <data-source name="postgres@localhost" uuid="e7740d0a-6131-426a-be57-84117a114394">
       <database-info product="PostgreSQL" version="15.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="15.0" exact-driver-version="42.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
@@ -16,7 +16,7 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="Library@localhost" uuid="b034732b-08c5-4620-9d81-dec87261577b">
+    <data-source name="Library@localhost" uuid="e5d13722-5326-4082-9732-304398fbeb3a">
       <database-info product="PostgreSQL" version="15.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="15.0" exact-driver-version="42.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
